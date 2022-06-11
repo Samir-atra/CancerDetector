@@ -65,8 +65,8 @@ model = tf.keras.Sequential([
     tf.keras.layers.Rescaling(1./255),
     #tf.keras.layers.RandomFlip("horizontal_and_vertical"),
     #tf.keras.layers.RandomRotation(0.2),
-    tf.keras.layers.Conv2D(16, 3, activation='leaky_relu'),   # first number is the count of the neurons 
-    tf.keras.layers.MaxPooling2D(),                        #and the second is the filter
+    tf.keras.layers.Conv2D(16, 3, activation='leaky_relu'),    
+    tf.keras.layers.MaxPooling2D(),                        
     tf.keras.layers.Conv2D(32, 3, activation='leaky_relu'),
     tf.keras.layers.MaxPooling2D(),
     tf.keras.layers.Conv2D(64, 3, activation='leaky_relu'),
@@ -102,7 +102,7 @@ model.fit(
 model.summary()
 
 
-#first thing in the training line is the number of batches being worked on.
+
 
 
 
