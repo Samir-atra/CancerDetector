@@ -7,4 +7,6 @@ to be added to the existing dataset.
 
 *Due to the lack of time and computing resources will work on the expansion using transfer learning
 
+model file for transfer learning version could be found at: https://drive.google.com/drive/folders/1o7ts623pJQxxuOs5kQBkyjEyorH8lT0X?usp=sharing
+
 ## the project is still a work in progress so it may not function correctly. 
