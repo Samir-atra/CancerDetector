@@ -118,3 +118,7 @@ _________________________________________________________________
 Total params: 22,723,620
 Trainable params: 15,725,124
 Non-trainable params: 6,998,496
+
+
+
+* Note by project creator: could have achived better results if there were more powerful computer available
