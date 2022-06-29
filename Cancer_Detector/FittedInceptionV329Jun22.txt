@@ -1,0 +1,137 @@
+Epoch 1/15
+1374/1374 [==============================] - 338s 243ms/step - loss: 3.5780 - accuracy: 0.7154 - val_loss: 3.2436 - val_accuracy: 0.8019
+Epoch 2/15
+1374/1374 [==============================] - 317s 231ms/step - loss: 3.1644 - accuracy: 0.7894 - val_loss: 2.9864 - val_accuracy: 0.8083
+Epoch 3/15
+1374/1374 [==============================] - 313s 228ms/step - loss: 2.8618 - accuracy: 0.8024 - val_loss: 2.6405 - val_accuracy: 0.8491
+Epoch 4/15
+1374/1374 [==============================] - 315s 229ms/step - loss: 2.5706 - accuracy: 0.8241 - val_loss: 2.3809 - val_accuracy: 0.8485
+Epoch 5/15
+1374/1374 [==============================] - 320s 233ms/step - loss: 2.3174 - accuracy: 0.8233 - val_loss: 2.1170 - val_accuracy: 0.8596
+Epoch 6/15
+1374/1374 [==============================] - 320s 233ms/step - loss: 2.0600 - accuracy: 0.8363 - val_loss: 1.9049 - val_accuracy: 0.8584
+Epoch 7/15
+1374/1374 [==============================] - 317s 231ms/step - loss: 1.8377 - accuracy: 0.8453 - val_loss: 1.7253 - val_accuracy: 0.8438
+Epoch 8/15
+1374/1374 [==============================] - 316s 230ms/step - loss: 1.6425 - accuracy: 0.8532 - val_loss: 1.5213 - val_accuracy: 0.8683
+Epoch 9/15
+1374/1374 [==============================] - 314s 229ms/step - loss: 1.4758 - accuracy: 0.8546 - val_loss: 1.3593 - val_accuracy: 0.8648
+Epoch 10/15
+1374/1374 [==============================] - 315s 229ms/step - loss: 1.3292 - accuracy: 0.8554 - val_loss: 1.2134 - val_accuracy: 0.8683
+Epoch 11/15
+1374/1374 [==============================] - 314s 228ms/step - loss: 1.1969 - accuracy: 0.8621 - val_loss: 1.0915 - val_accuracy: 0.8811
+Epoch 12/15
+1374/1374 [==============================] - 314s 229ms/step - loss: 1.0942 - accuracy: 0.8659 - val_loss: 0.9905 - val_accuracy: 0.8899
+Epoch 13/15
+1374/1374 [==============================] - 320s 233ms/step - loss: 1.0035 - accuracy: 0.8634 - val_loss: 0.9073 - val_accuracy: 0.8829
+Epoch 14/15
+1374/1374 [==============================] - 323s 235ms/step - loss: 0.9270 - accuracy: 0.8680 - val_loss: 0.8628 - val_accuracy: 0.8770
+Epoch 15/15
+1374/1374 [==============================] - 325s 237ms/step - loss: 0.8485 - accuracy: 0.8694 - val_loss: 0.7639 - val_accuracy: 0.8957
+341/341 [==============================] - 377s 1s/step - loss: 1.0764 - accuracy: 0.8164
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 180, 180, 3)]     0         
+                                                                 
+ sequential_1 (Sequential)   (None, 180, 180, 3)       0         
+                                                                 
+ sequential (Sequential)     (None, 180, 180, 3)       0         
+                                                                 
+ inception_v3 (Functional)   (None, 4, 4, 2048)        21802784  
+                                                                 
+ global_average_pooling2d (G  (None, 2048)             0         
+ lobalAveragePooling2D)                                          
+                                                                 
+ dense (Dense)               (None, 1024)              2098176   
+                                                                 
+ dropout (Dropout)           (None, 1024)              0         
+                                                                 
+ dense_1 (Dense)             (None, 512)               524800    
+                                                                 
+ dropout_1 (Dropout)         (None, 512)               0         
+                                                                 
+ dense_2 (Dense)             (None, 512)               262656    
+                                                                 
+ dropout_2 (Dropout)         (None, 512)               0         
+                                                                 
+ dense_3 (Dense)             (None, 256)               131328    
+                                                                 
+ dropout_3 (Dropout)         (None, 256)               0         
+                                                                 
+ dense_4 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 24,820,772
+Trainable params: 3,017,988
+Non-trainable params: 21,802,784
+_________________________________________________________________
+Epoch 16/30
+1374/1374 [==============================] - 351s 255ms/step - loss: 0.7364 - accuracy: 0.8989 - val_loss: 0.6213 - val_accuracy: 0.9464
+Epoch 17/30
+1374/1374 [==============================] - 352s 257ms/step - loss: 0.6116 - accuracy: 0.9480 - val_loss: 0.5853 - val_accuracy: 0.9540
+Epoch 18/30
+1374/1374 [==============================] - 350s 255ms/step - loss: 0.5698 - accuracy: 0.9540 - val_loss: 0.5180 - val_accuracy: 0.9732
+Epoch 19/30
+1374/1374 [==============================] - 351s 255ms/step - loss: 0.5251 - accuracy: 0.9666 - val_loss: 0.4934 - val_accuracy: 0.9738
+Epoch 20/30
+1374/1374 [==============================] - 350s 255ms/step - loss: 0.4816 - accuracy: 0.9751 - val_loss: 0.4697 - val_accuracy: 0.9755
+Epoch 21/30
+1374/1374 [==============================] - 359s 261ms/step - loss: 0.4565 - accuracy: 0.9751 - val_loss: 0.4396 - val_accuracy: 0.9773
+Epoch 22/30
+1374/1374 [==============================] - 354s 258ms/step - loss: 0.4309 - accuracy: 0.9780 - val_loss: 0.4447 - val_accuracy: 0.9703
+Epoch 23/30
+1374/1374 [==============================] - 354s 257ms/step - loss: 0.3986 - accuracy: 0.9824 - val_loss: 0.3940 - val_accuracy: 0.9831
+Epoch 24/30
+1374/1374 [==============================] - 353s 257ms/step - loss: 0.3666 - accuracy: 0.9869 - val_loss: 0.3865 - val_accuracy: 0.9808
+Epoch 25/30
+1374/1374 [==============================] - 354s 258ms/step - loss: 0.3473 - accuracy: 0.9866 - val_loss: 0.3569 - val_accuracy: 0.9814
+Epoch 26/30
+1374/1374 [==============================] - 346s 252ms/step - loss: 0.3269 - accuracy: 0.9869 - val_loss: 0.3428 - val_accuracy: 0.9784
+Epoch 27/30
+1374/1374 [==============================] - 346s 252ms/step - loss: 0.3060 - accuracy: 0.9876 - val_loss: 0.2850 - val_accuracy: 0.9918
+Epoch 28/30
+1374/1374 [==============================] - 348s 253ms/step - loss: 0.2882 - accuracy: 0.9869 - val_loss: 0.2626 - val_accuracy: 0.9942
+Epoch 29/30
+1374/1374 [==============================] - 352s 256ms/step - loss: 0.2670 - accuracy: 0.9901 - val_loss: 0.2753 - val_accuracy: 0.9848
+Epoch 30/30
+1374/1374 [==============================] - 348s 253ms/step - loss: 0.2451 - accuracy: 0.9927 - val_loss: 0.2351 - val_accuracy: 0.9936
+341/341 [==============================] - 42s 124ms/step - loss: 0.5165 - accuracy: 0.9519
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 180, 180, 3)]     0         
+                                                                 
+ sequential_1 (Sequential)   (None, 180, 180, 3)       0         
+                                                                 
+ sequential (Sequential)     (None, 180, 180, 3)       0         
+                                                                 
+ inception_v3 (Functional)   (None, 4, 4, 2048)        21802784  
+                                                                 
+ global_average_pooling2d (G  (None, 2048)             0         
+ lobalAveragePooling2D)                                          
+                                                                 
+ dense (Dense)               (None, 1024)              2098176   
+                                                                 
+ dropout (Dropout)           (None, 1024)              0         
+                                                                 
+ dense_1 (Dense)             (None, 512)               524800    
+                                                                 
+ dropout_1 (Dropout)         (None, 512)               0         
+                                                                 
+ dense_2 (Dense)             (None, 512)               262656    
+                                                                 
+ dropout_2 (Dropout)         (None, 512)               0         
+                                                                 
+ dense_3 (Dense)             (None, 256)               131328    
+                                                                 
+ dropout_3 (Dropout)         (None, 256)               0         
+                                                                 
+ dense_4 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 24,820,772
+Trainable params: 24,769,124
+Non-trainable params: 51,648
