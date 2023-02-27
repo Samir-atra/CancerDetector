@@ -7,4 +7,3 @@ https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset?resourc
 
 model file for transfer learning version could be found at: https://drive.google.com/drive/folders/1o7ts623pJQxxuOs5kQBkyjEyorH8lT0X?usp=sharing
 
-I am editing the README file. Adding some more details about the project description.
