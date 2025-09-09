@@ -1,5 +1,6 @@
 # CancerDetector
 
+
 This project is focused on the detection of brain tumors from MRI scans using deep learning. It originated as a final project and has since been updated and expanded. The project explores two different models for cancer detection: one for detecting meningioma tumors and another for classifying multiple types of brain tumors.
 
 ## Features
