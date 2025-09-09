@@ -1,5 +1,18 @@
 # CancerDetector
 
+This project is focused on the detection of brain tumors from MRI scans using deep learning. It originated as a final project and has since been updated and expanded. The project explores two different models for cancer detection: one for detecting meningioma tumors and another for classifying multiple types of brain tumors.
+
+## Features
+
+*   **Meningioma Tumor Detection:** A model to classify MRI scans as either positive or negative for meningioma tumors, achieving an accuracy of 93%.
+*   **Multi-Class Tumor Detection:** A more advanced model that detects and classifies three types of brain tumors (Glioma, Meningioma, and Pituitary), achieving an accuracy of 95%.
+*   **Transfer Learning:** Utilizes the InceptionV3 architecture with weights pre-trained on ImageNet for the multi-class detector, demonstrating the effectiveness of transfer learning for medical imaging tasks.
+*   **Jupyter Notebooks:** The repository includes the Jupyter notebooks used for training, evaluation, and prediction, providing a clear view of the entire workflow.
+
+## Models
+
+This project includes two distinct models for brain tumor detection.
+
 
 This project is focused on the detection of brain tumors from MRI scans using deep learning. It originated as a final project and has since been updated and expanded. The project explores two different models for cancer detection: one for detecting meningioma tumors and another for classifying multiple types of brain tumors.
 
